@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="PartAttrChangePoint" name="PartAttrChangePoint"
+	display-name="部件属性更改点" icon="/plm/images/change/modify_changeditem.gif" table="PLM_PART_PUB_ATTRPOINT"
+	storageMode="share" relation="false" mappingMode="3" parentID="AbstractViewChangePoint">
+	<property name="attrId" display-name="属性名"/>
+	<property name="type" column="ATTRCHANGETYPE" display-name="更改类型"/>
+	<property name="beforeContent" type="serializable" display-name="改前值"/>
+	<property name="afterContent" type="serializable" display-name="改后值"/>
+	<property name="finalContent" type="serializable" display-name="最终值"/>
+	<reference name="affectedLink" display-name="受影响的使用关系" class="PartUsageLink"/>
+	<reference name="usesPart" display-name="使用部件(使用关系属性)" class="Part"/>
+</class>

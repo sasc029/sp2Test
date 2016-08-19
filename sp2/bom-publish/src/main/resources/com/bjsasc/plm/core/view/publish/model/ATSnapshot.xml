@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATSnapshot" name="com.bjsasc.plm.core.view.publish.model.ATSnapshot" display-name="快照对象"
+	icon="/plm/images/part/part.gif" table="PLM_VIEW_PUB_SNAPSHOT"
+	storageMode="share" relation="false" mappingMode="3" parentID="ATObject">
+	<reference name="viewManageable" display-name="对象引用" class="ATObject"
+		sort-no="3" />
+	<component name="masterInfo" display-name="主对象信息" class="MasterInfo" />
+</class>

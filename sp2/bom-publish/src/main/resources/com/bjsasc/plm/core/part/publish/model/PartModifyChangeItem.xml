@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="PartModifyChangeItem" name="PartModifyChangeItem"
+	display-name="部件修改更改项" icon="/plm/images/common/type.gif" table="PLM_PART_PUB_MODITEM"
+	storageMode="share" relation="false" mappingMode="3" parentID="AbstractViewChangeItem">
+	
+</class>

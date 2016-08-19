@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATLinkSnapshot" name="com.bjsasc.plm.core.view.publish.model.ATLinkSnapshot" display-name="关系快照对象"
+	icon="/plm/images/part/part.gif" table="PLM_VIEW_PUB_LINKSNAPSHOT"
+	storageMode="share" relation="false" mappingMode="3" parentID="ATObject">
+	<reference name="link" display-name="关系引用" class="ATLink"
+		sort-no="3" />
+	<property name="masterIdBind" display-name="master绑定标识"  />
+</class>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="PartLinkChangePoint" name="PartLinkChangePoint"
+	display-name="部件关系更改点" icon="/plm/images/part/partConfig.gif" table="PLM_PART_PUB_LINKPOINT"
+	storageMode="share" relation="false" mappingMode="3" parentID="AbstractViewChangePoint">
+	<reference name="createdLink" display-name="新增链接" class="ATLink"
+		sort-no="3" />
+	<reference name="removedLink" display-name="移除链接" class="ATLink"
+		sort-no="3" />
+	<reference name="createdToPart" display-name="新增部件" class="Part"
+		sort-no="3" />
+	<reference name="removedToPart" display-name="移除部件" class="Part"
+		sort-no="3" />
+	<property name="type" column="LINKCHANGETYPE" display-name="关系更改类型"/>
+</class>

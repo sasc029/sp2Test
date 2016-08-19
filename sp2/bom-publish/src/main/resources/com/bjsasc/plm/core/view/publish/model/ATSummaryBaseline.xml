@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATSummaryBaseline" name="com.bjsasc.plm.core.view.publish.model.ATSummaryBaseline" display-name="汇总基线" icon="/plm/images/baseline/baseline.gif" table="PLM_VIEW_PUB_SUMBASELINE" storageMode="share" relation="false" mappingMode="3" parentID="ATObject">
+    <component name="lock" display-name="锁" class="Lock" />
+    <reference name="prodContext" display-name="上下文引用" class="ProductContext" />
+    <reference name="sourceView" display-name="源视图引用" class="View" />
+    <reference name="targetView" display-name="目标视图引用" class="View" />
+</class>

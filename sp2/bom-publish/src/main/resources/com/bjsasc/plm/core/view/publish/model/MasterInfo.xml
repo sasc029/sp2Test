@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="MasterInfo" name="com.bjsasc.plm.core.view.publish.model.MasterInfo" display-name="主对象信息"
+	relation="false" component="true" parentID="Master">
+	<property name="masterName" display-name="主对象名称"/>
+	<property name="masterNumber" display-name="主对象编号"/>
+</class>

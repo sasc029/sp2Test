@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATViewChangeLog" name="com.bjsasc.plm.core.view.publish.model.ATViewChangeLog" display-name="视图转换更改日志"
+	icon="/plm/images/common/type.gif" table="PLM_VIEW_PUB_CHANGELOG"
+	storageMode="share" relation="false" mappingMode="3" parentID="ATObject">
+	<reference name="changeItem" display-name="所属视图转换更改项" class="AbstractViewChangeItem"
+		sort-no="3" />
+	<reference name="toChange" display-name="更改的下游部件" class="ATObject"
+		sort-no="3" />
+	<property name="note" display-name="备注" />
+</class>

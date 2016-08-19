@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="AbstractViewChangeConflict" name="com.bjsasc.plm.core.view.publish.model.AbstractViewChangeConflict" display-name="视图转换冲突抽象类"
+	icon="/plm/images/common/type.gif" relation="false" mappingMode="3" polymorphism="implicit" parentID="ATObject">
+	<reference name="point" display-name="所属视图转换更改点" class="AbstractViewChangePoint"
+		sort-no="3" />
+	<reference name="downStream" display-name="下游视图部件" class="ATObject"
+		sort-no="3" />
+    <property name="solution" display-name="解决方案"/>
+</class>

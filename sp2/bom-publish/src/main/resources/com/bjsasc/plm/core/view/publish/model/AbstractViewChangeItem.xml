@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="AbstractViewChangeItem" name="com.bjsasc.plm.core.view.publish.model.AbstractViewChangeItem" display-name="视图转换更改项抽象类"
+	icon="/plm/images/common/type.gif" relation="false" mappingMode="3" polymorphism="implicit" parentID="ATObject">
+	<reference name="affectedViewManageable" display-name="影响部件" class="ATObject"
+		sort-no="3" />
+	<reference name="publishPackage" display-name="发布包" class="ATPublishPackage"
+		sort-no="3" />
+	<property name="deal" display-name="处理状态"/>
+</class>

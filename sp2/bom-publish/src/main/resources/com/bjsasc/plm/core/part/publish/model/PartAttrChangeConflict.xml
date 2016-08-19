@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="PartAttrChangeConflict" name="PartAttrChangeConflict"
+	display-name="部件属性转换冲突" icon="/plm/images/common/type.gif" table="PLM_PART_PUB_ATTRCFL"
+	storageMode="share" relation="false" mappingMode="3" parentID="AbstractViewChangeConflict">
+	<property name="currentContent" type="serializable" display-name="现有值"/>
+	<property name="userContent" display-name="用户自定义值"/>
+</class>

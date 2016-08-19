@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="PartAddChangePoint" name="PartAddChangePoint"
+	display-name="部件新增更改点" icon="/plm/images/part/newViewVersion.gif" table="PLM_PART_PUB_ADDPOINT"
+	storageMode="share" relation="false" mappingMode="3" parentID="AbstractViewChangePoint">
+	<reference name="createdPart" display-name="新增部件" class="Part"
+		sort-no="3" />
+</class>

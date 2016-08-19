@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATPublishPackage" name="com.bjsasc.plm.core.view.publish.model.ATPublishPackage" display-name="发布包"
+	icon="/plm/images/common/type.gif" table="PLM_VIEW_PUB_PUBPACKAGE"
+	storageMode="share" relation="false" mappingMode="3" parentID="ATObject">
+	<property name="name" display-name="发布名称" />
+	<property name="number" display-name="发布标识" column="id"
+		unique="true" />
+	<reference name="publishPart" display-name="发布部件" class="ATObject"
+		sort-no="2" />
+	<reference name="publishBaseline" display-name="发布基线"
+		class="ATPublishBaseline" sort-no="3" />
+	<reference name="summaryBaseline" display-name="汇总基线"
+		class="ATSummaryBaseline" sort-no="4" />
+	<reference name="sourceView" display-name="源视图" class="View"
+		sort-no="5" />
+	<reference name="targetView" display-name="目标视图" class="View"
+		sort-no="6" />
+	<reference name="predecessor" display-name="前驱对象" class="ATPublishPackage"
+		sort-no="7" />
+	<component name="lifeCycleInfo" display-name="生命周期信息" class="LifeCycleInfo" />
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+	<component name="contextInfo" display-name="上下文信息" class="ContextInfo" />
+</class>
