@@ -38,7 +38,7 @@ public class PartPublishServiceImpl extends ViewPublishServiceImpl implements Pa
 	 */
 	public ATSnapshot getPartSnapshotInPublishBaseline(PartMaster partMaster,ATPublishBaseline publishBaseline){
 		
-		StringBuilder hql = new StringBuilder();
+		StringBuilder hqls = new StringBuilder();
 		List<Object> hql_paramList = new ArrayList<Object>(); 
 		hql.append(" select snapshot from BaselineMemberLink baseline,ATSnapshot snapshot,Part part");
 		
@@ -49,6 +49,7 @@ public class PartPublishServiceImpl extends ViewPublishServiceImpl implements Pa
 		hql.append(" and snapshot.viewManageableRef.innerId = part.innerId");
 		hql.append(" and part.masterRef.innerId = ?");
 		hql_paramList.add(partMaster.getInnerId());
+		Sysout;
 		
 		@SuppressWarnings("unchecked")
 		List<ATSnapshot> snapshotList =  Helper.getPersistService().find(hql.toString(), hql_paramList.toArray());
