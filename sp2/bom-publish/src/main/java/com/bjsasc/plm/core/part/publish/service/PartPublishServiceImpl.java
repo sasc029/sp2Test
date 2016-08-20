@@ -49,7 +49,6 @@ public class PartPublishServiceImpl extends ViewPublishServiceImpl implements Pa
 		hql.append(" and snapshot.viewManageableRef.innerId = part.innerId");
 		hql.append(" and part.masterRef.innerId = ?");
 		hql_paramList.add(partMaster.getInnerId());
-		Sysout;
 		
 		@SuppressWarnings("unchecked")
 		List<ATSnapshot> snapshotList =  Helper.getPersistService().find(hql.toString(), hql_paramList.toArray());
