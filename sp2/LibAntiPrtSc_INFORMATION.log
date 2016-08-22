@@ -1,0 +1,10 @@
+[LibAntiPrtSc][AxPrtMgr.cpp](248)<CAxPrtMgr::InitAntiPrtScX64()>fileFolder is C:\Windows\SysWOW64\PersonalBankPortal.exe 
+
+[LibAntiPrtSc][AxPrtMgr.cpp](173)<CAxPrtMgr::InitAntiPrtSc()>HashUpdateFile is  d4829786a1149ba3e909b639bf2e9cf6a5ab2b40
+[LibAntiPrtSc][AxPrtMgr.cpp](174)<CAxPrtMgr::InitAntiPrtSc()>HashAntiFile is  d4829786a1149ba3e909b639bf2e9cf6a5ab2b40
+[LibAntiPrtSc][AxPrtMgr.cpp](175)<CAxPrtMgr::InitAntiPrtSc()>pMd5s[0] is  d4829786a1149ba3e909b639bf2e9cf6a5ab2b40
+[LibAntiPrtSc][AxPrtMgr.cpp](176)<CAxPrtMgr::InitAntiPrtSc()>pMd5s[1] is  4b3762db6b7a39280697f05e92796e42024dc8f8
+[LibAntiPrtSc][AxPrtMgr.cpp](180)<CAxPrtMgr::InitAntiPrtSc()>InitAntiPrtSc anti file is latest 
+
+[LibAntiPrtSc][AxPrtMgr.cpp](552)<CAxPrtMgr::StopAntiPrtScX64()>CMB_ANTI_PRTSC_EVENT_X64 
+
